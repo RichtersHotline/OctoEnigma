@@ -6,3 +6,103 @@ padding: 0;
 box-sizing:border-box;
 
 }
+* {
+    font-family:verdana;
+    font-weight:800;
+}
+.container {
+}
+table, th, td {
+    border:1px solid burlywood;
+}
+.Tablez {
+    display:Flex;
+    justify-content:center;
+}
+header h2 {
+
+color:indigo}
+.Tables {
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+nav {
+    background-color:black;
+    }
+.paragraph::first-line {
+    color:red;
+}
+.paragraph::first-letter {
+    color:blue;
+}
+    .paragraph + button {
+color:cornflowerblue;
+
+    }
+    .firstBtn + button {
+
+        color:cornflowerblue;
+    }
+    article ~ p {
+
+        background-color:yellow;
+    }
+    aside {
+        color:dimgray;
+        border:10px dotted;
+    }
+    aside + button {
+        color:cornflowerblue;
+    }
+nav a {
+text-decoration:none;
+padding:1rem;
+color:aliceblue;
+
+}
+#main {
+    margin:30px;
+    text-align:center;
+}
+#hover:hover {
+
+    background-color:yellow;
+    padding: 2rex;
+}
+a:hover {
+    color:purple;
+}
+td:first-child {
+
+    background-color:yellowgreen;
+}
+td:first-child:hover {
+    color:crimson;
+}
+p i:first-of-type {
+    color:blue;
+}
+p i {
+    color:peru;
+}
+p i:hover {
+    color:greenyellow;
+}
+
+article::before {
+
+    content: url("https://richtershotline.github.io/Pimages/Images/13FrpeVH09Zrb2.webp");
+}
+article::after {
+
+    content: url("https://richtershotline.github.io/Pimages/Images/13FrpeVH09Zrb2.webp");
+}
+a:focus {
+    color:purple;
+}
+a:active {
+
+    color:purple;
+}
